@@ -41,7 +41,6 @@ header {
 
 .nav-container {
     display: inline-block;
-   
 }
 
 .list-container {
@@ -168,11 +167,12 @@ header {
   width: 80px;
   height: 80px;
   border-radius: 2px;
+  transition: 1s;
 }
 
 .section-marcas img:hover {
-  
-  transform: scale(2,1);
+  background-color: lightblue;
+  transform: scale(1.25,1);
 }
 
 
@@ -494,6 +494,12 @@ footer h1 {
   background: #fff;
   margin-right: 15px;
   cursor: pointer;
+  transition: 1s;
+}
+
+.footer-container-3 .fab:hover {
+  transform: scale(1, 1.1);
+  background-color: lightblue;
 }
 
 .footer-list{
